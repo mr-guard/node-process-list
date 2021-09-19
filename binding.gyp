@@ -29,7 +29,7 @@
         "cflags_cc!": ["-fno-rtti", "-fno-exceptions"],
         "cflags_cc+": [
           "-fexceptions",
-          "-std=c++0x",
+          "-std=c++14",
           "-frtti"
         ]
       }]
