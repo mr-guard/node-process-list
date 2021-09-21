@@ -1,6 +1,6 @@
 {
-  "name": "process-list",
-  "version": "2.0.0",
+  "name": "@senfo/process-list",
+  "version": "2.0.1",
   "description": "Cross-platform method to receive the list of the launched processes",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reklatsmasters/node-process-list.git"
+    "url": "git://github.com/mr-guard/node-process-list.git"
   },
   "bugs": {
-    "url": "https://github.com/reklatsmasters/node-process-list/issues"
+    "url": "https://github.com/mr-guard/node-process-list/issues"
   },
   "license": "MIT",
   "engines": {
