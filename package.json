@@ -1,11 +1,12 @@
 {
   "name": "@senfo/process-list",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Cross-platform method to receive the list of the launched processes",
   "main": "index.js",
   "scripts": {
     "test": "ava test/*.js && prebuild-ci",
-    "install": "prebuild-install || node-gyp rebuild"
+    "install": "prebuild-install || node-gyp rebuild",
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
