@@ -2,7 +2,8 @@ name: Publish
 
 on:
   release:
-    types: [published]
+    types:
+    - published
 
 jobs:
   build:
@@ -16,4 +17,4 @@ jobs:
       - run: npm install
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
