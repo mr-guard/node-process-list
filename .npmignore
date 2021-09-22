@@ -2,3 +2,15 @@
 .travis.yml
 appveyor.yml
 linux.cmd
+build
+node_modules
+*sublime*
+npm-debug.log
+lib
+.vscode
+.idea
+Dockerfile
+.gitattributes
+Makefile
+cpplint.py
+logo.png
