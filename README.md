@@ -49,13 +49,13 @@ List of allowed fields.
 * `name: String` - process name (title)
 * `path: String` - full path to the process binary file
 * `threads: Number` - threads per process
-* `owner: String` - the owner of the process
+* `owner: String` - the owner of the process (very time intensive on windows depending on elevation, can take 20 seconds or more)
 * `priority: Number` - an os-specific process priority
 * `cmdline: String` - full command line of the process
-* `starttime: Date` - the process start date / time
+* `starttime: Date` - the process start date / time (time intensive on windows, can take 200-400ms depending on the system)
 * `vmem: String` - virtual memory size in bytes used by process
 * `pmem: String` - physical memory size in bytes used by process
-* `cpu: Number` - cpu usage by process in percent
+* `cpu: Number` - cpu usage by process in percent (time intensive on windows, can take 200-400ms depending on the system)
 * `utime: String` - amount of time in ms that this process has been scheduled in user mode
 * `stime: String` - amount of time that in ms this process has been scheduled in kernel mode
 
